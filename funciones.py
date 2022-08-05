@@ -180,22 +180,22 @@ def execute_orden(orden, etapas, edad, densidad, sombrio):
     y_i = si.splev(ipl_t, y_list)  # y interpolate values
 
     PATH = "geckodriver.exe"
+    driver = webdriver.Firefox(firefox_profile=profile)
 
+    driver.get("https://www.cenicafe.org/es/index.php/us3r5/login")
+
+    time.sleep(1)
+
+    username = driver.find_element(by=By.NAME, value="username")
+    password = driver.find_element(by=By.NAME, value="password")
+    login = driver.find_element(by=By.CLASS_NAME, value="submit")
+
+    username.send_keys("810004212")
+    password.send_keys("Multilab2001")
+    login.click()
+    time.sleep(1)
     for c_lab in muestras_t.codigo:
-        driver = webdriver.Firefox(firefox_profile=profile)
 
-        driver.get("https://www.cenicafe.org/es/index.php/us3r5/login")
-
-        time.sleep(1)
-
-        username = driver.find_element(by=By.NAME, value="username")
-        password = driver.find_element(by=By.NAME, value="password")
-        login = driver.find_element(by=By.CLASS_NAME, value="submit")
-
-        username.send_keys("810004212")
-        password.send_keys("Multilab2001")
-        login.click()
-        time.sleep(1)
         driver.get("https://www.cenicafe.org/es/index.php/servicios/siaskafe")
 
         print(c_lab)
@@ -318,5 +318,10 @@ def execute_orden(orden, etapas, edad, densidad, sombrio):
         driver.switch_to.window(driver.window_handles[1])
         enviar = driver.find_element(by=By.NAME, value="enviar")
         enviar.click()
-        time.sleep(1)
-        driver.quit()
+        window_before = driver.window_handles[0]
+        print(len(driver.window_handles))
+        driver.switch_to.window(driver.window_handles[2])
+        driver.close()
+        driver.switch_to.window(driver.window_handles[1])
+        driver.close()
+        driver.switch_to.window(window_before)
