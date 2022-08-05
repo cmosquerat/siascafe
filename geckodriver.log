@@ -657,3 +657,280 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "file://"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659729050816	geckodriver	INFO	Listening on 127.0.0.1:63699
+1659729051326	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63700" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofilejd5j6E"
+2022-08-05 14:50:51.839 plugin-container[21284:1174720] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 14:50:51.839 plugin-container[21284:1174720] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659729051849	Marionette	INFO	Marionette enabled
+2022-08-05 14:50:51.876 plugin-container[21284:1174720] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 14:50:51.876 plugin-container[21284:1174720] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 14:50:51.877 plugin-container[21284:1174717] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 14:50:51.877 plugin-container[21284:1174717] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659729051877	Marionette	INFO	Listening on port 63707
+WebDriver BiDi listening on ws://localhost:63700
+Read port: 63707
+1659729052027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofilejd5j6E/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63700/devtools/browser/9584090d-7b5a-4032-9b16-51e552b6d156
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659729056148	Marionette	INFO	Stopped listening on port 63707
+1659730513820	geckodriver	INFO	Listening on 127.0.0.1:64245
+1659730514347	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64246" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofilemPXjeI"
+2022-08-05 15:15:14.948 plugin-container[22035:1217930] nil host used in call to allowsSpecificHTTPSCertificateForHost
+1659730514960	Marionette	INFO	Marionette enabled
+2022-08-05 15:15:14.970 plugin-container[22035:1217930] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:15:15.003 plugin-container[22035:1217930] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:15:15.003 plugin-container[22035:1217930] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:15:15.003 plugin-container[22035:1217963] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:15:15.003 plugin-container[22035:1217963] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659730515064	Marionette	INFO	Listening on port 64251
+WebDriver BiDi listening on ws://localhost:64246
+Read port: 64251
+1659730515141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofilemPXjeI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64246/devtools/browser/7c8c3250-786c-464d-98bb-c713ff0d1f14
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659730561604	geckodriver	INFO	Listening on 127.0.0.1:64308
+1659730562110	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64309" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileK8Sjy8"
+2022-08-05 15:16:02.451 plugin-container[22130:1220247] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:16:02.452 plugin-container[22130:1220247] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:16:02.454 plugin-container[22130:1220247] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:16:02.454 plugin-container[22130:1220247] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:16:02.454 plugin-container[22130:1220256] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:16:02.454 plugin-container[22130:1220256] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659730562461	Marionette	INFO	Marionette enabled
+1659730562483	Marionette	INFO	Listening on port 64315
+WebDriver BiDi listening on ws://localhost:64309
+Read port: 64315
+1659730562568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileK8Sjy8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64309/devtools/browser/48f605e7-c41d-4376-9da2-b910874a60d0
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+1659730673260	geckodriver	INFO	Listening on 127.0.0.1:64395
+1659730673777	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64396" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofilepnJEgl"
+1659730674296	Marionette	INFO	Marionette enabled
+2022-08-05 15:17:54.332 plugin-container[22233:1224412] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:17:54.333 plugin-container[22233:1224412] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:17:54.335 plugin-container[22233:1224412] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:17:54.335 plugin-container[22233:1224412] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:17:54.335 plugin-container[22233:1224443] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:17:54.335 plugin-container[22233:1224443] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659730674401	Marionette	INFO	Listening on port 64401
+Read port: 64401
+WebDriver BiDi listening on ws://localhost:64396
+1659730674478	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofilepnJEgl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64396/devtools/browser/f91caa5d-4fbc-4799-8c0d-2b7a41a55e55
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+1659730876277	geckodriver	INFO	Listening on 127.0.0.1:64518
+1659730876792	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64519" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileybTlbP"
+2022-08-05 15:21:17.196 plugin-container[22318:1230529] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:21:17.197 plugin-container[22318:1230529] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659730877199	Marionette	INFO	Marionette enabled
+2022-08-05 15:21:17.219 plugin-container[22318:1230529] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:21:17.219 plugin-container[22318:1230529] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:21:17.220 plugin-container[22318:1230531] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:21:17.220 plugin-container[22318:1230531] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659730877228	Marionette	INFO	Listening on port 64525
+WebDriver BiDi listening on ws://localhost:64519
+Read port: 64525
+1659730877373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileybTlbP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64519/devtools/browser/7c872154-a480-43dc-b528-7db7c7bb3ba3
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+1659730993350	geckodriver	INFO	Listening on 127.0.0.1:64630
+1659730993875	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64631" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileB1cJJH"
+2022-08-05 15:23:14.284 plugin-container[22410:1234943] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:23:14.284 plugin-container[22410:1234943] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659730994288	Marionette	INFO	Marionette enabled
+2022-08-05 15:23:14.308 plugin-container[22410:1234943] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:23:14.308 plugin-container[22410:1234943] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:23:14.308 plugin-container[22410:1234941] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:23:14.308 plugin-container[22410:1234941] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659730994318	Marionette	INFO	Listening on port 64636
+WebDriver BiDi listening on ws://localhost:64631
+Read port: 64636
+1659730994459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileB1cJJH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64631/devtools/browser/62dd8294-d6e4-4e8f-b900-a566562f7055
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+2022-08-05 20:23:20.652 plugin-container[22420:1235426] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 20:23:20.652 plugin-container[22420:1235426] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 20:23:20.653 plugin-container[22420:1235426] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 20:23:20.653 plugin-container[22420:1235426] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 20:23:20.654 plugin-container[22420:1235430] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 20:23:20.654 plugin-container[22420:1235430] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659731039979	Marionette	INFO	Stopped listening on port 64251
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1659731041582	Marionette	INFO	Stopped listening on port 64315
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1659731043211	Marionette	INFO	Stopped listening on port 64401
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1659731044712	Marionette	INFO	Stopped listening on port 64525
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1659731046334	Marionette	INFO	Stopped listening on port 64636
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1659731128760	geckodriver	INFO	Listening on 127.0.0.1:64734
+1659731129274	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64735" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileHdAXJB"
+2022-08-05 15:25:29.558 plugin-container[22528:1239599] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:25:29.558 plugin-container[22528:1239599] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659731129560	Marionette	INFO	Marionette enabled
+1659731129578	Marionette	INFO	Listening on port 64741
+2022-08-05 15:25:29.579 plugin-container[22528:1239599] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:25:29.579 plugin-container[22528:1239599] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:25:29.579 plugin-container[22528:1239602] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:25:29.579 plugin-container[22528:1239602] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:64735
+Read port: 64741
+1659731129663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileHdAXJB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64735/devtools/browser/ed31b4f0-f37f-4705-9e4d-9fd4b1feb4e9
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+2022-08-05 20:25:35.937 plugin-container[22545:1240141] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 20:25:35.937 plugin-container[22545:1240141] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 20:25:35.939 plugin-container[22545:1240141] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 20:25:35.939 plugin-container[22545:1240141] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 20:25:35.939 plugin-container[22545:1240144] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 20:25:35.939 plugin-container[22545:1240144] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1659731178674	geckodriver	INFO	Listening on 127.0.0.1:64799
+1659731179189	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64800" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileKOR9k1"
+1659731179560	Marionette	INFO	Marionette enabled
+2022-08-05 15:26:19.562 plugin-container[22588:1241607] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:26:19.562 plugin-container[22588:1241607] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:26:19.575 plugin-container[22588:1241607] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:26:19.576 plugin-container[22588:1241607] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 15:26:19.576 plugin-container[22588:1241605] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 15:26:19.576 plugin-container[22588:1241605] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1659731179586	Marionette	INFO	Listening on port 64805
+WebDriver BiDi listening on ws://localhost:64800
+Read port: 64805
+1659731179679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5g/_8mvp6w57v30k_7b16zv290m0000gn/T/rust_mozprofileKOR9k1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64800/devtools/browser/e5653984-9efb-40c4-807f-52c589abe635
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+2022-08-05 20:26:25.824 plugin-container[22599:1242062] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 20:26:25.824 plugin-container[22599:1242062] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 20:26:25.826 plugin-container[22599:1242062] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 20:26:25.826 plugin-container[22599:1242062] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-05 20:26:25.826 plugin-container[22599:1242065] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-05 20:26:25.826 plugin-container[22599:1242065] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://www.cenicafe.org/es/js/jquery-1.7.js, line 4241: uncaught exception: Syntax error, unrecognized expression: select
+JavaScript error: https://www.cenicafe.org/es/index.php/servicios/siaskafe, line 58: TypeError: $(...).cycle is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cenicafe.org"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null

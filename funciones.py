@@ -15,7 +15,7 @@ import os
 año = date.today().year  # Obtener año actual para conexión a base de datos
 
 
-def get_database(orden):
+def get_database():
     """Obtiene la base de datos a partir de la orden
 
     Args:
@@ -34,7 +34,7 @@ def get_database(orden):
         host="190.147.28.95", database="multilab", user="root", passwd="d3f4g5h6"
     )
     for año in años:
-        query = f"Select * from muestra_{año} WHERE orden={orden};"
+        query = f"Select * from muestra_{año};"
         print("Obteniendo muestras")
         muestras = pd.read_sql(query, mydb)
         query = f"Select * from orden_{año};"
@@ -113,20 +113,35 @@ def get_description(
     return diccionario1, diccionario2, analisis
 
 
-def execute_orden(orden, etapas, edad, densidad, sombrio):
-    os.makedirs(f"Reportes/{orden}", exist_ok=True)
-    path = os.getcwd() + f"/Reportes/{orden}"
+def find_nearest(array, value):
+    array = np.asarray(array)
+    idx = (np.abs(array - value)).argmin()
+    return array[idx]
+
+
+def execute_orden(plantilla):
+    (
+        muestras,
+        ordenes,
+        cliente,
+        municipios,
+        finca,
+        tipo_analisis,
+        departamentos,
+    ) = get_database()
+
+    path = os.getcwd() + "/Recomendaciones"
     profile = webdriver.FirefoxProfile()
     profile.set_preference("browser.download.folderList", 2)
     profile.set_preference("browser.download.manager.showWhenStarting", False)
-    profile.set_preference("browser.download.dir", path)
+    profile.set_preference("browser.download.dir", "path")
+    profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/pdf")
 
-    profile.set_preference(
-        "browser.helperApps.neverAsk.saveToDisk", "application/octet-stream"
-    )
+    profile.set_preference("pdfjs.disabled", True)
+    profile.set_preference("plugin.scan.Acrobat", "99.0")
+    profile.set_preference("plugin.scan.plid.all", False)
 
-    c_orden = int(orden)
-    etapa_ = {"Producción": "2", "Crecimiento": "0", "Zoca": "1"}
+    etapa_ = {"PRODUCCIÓN": "2", "CRECIMIENTO": "0", "ZOCA": "1"}
     texturas_ = {
         1: "7",
         2: "8",
@@ -142,18 +157,6 @@ def execute_orden(orden, etapas, edad, densidad, sombrio):
         12: "2",
         13: "11",
     }
-
-    etapa = etapa_[etapas]
-    (
-        muestras,
-        ordenes,
-        cliente,
-        municipios,
-        finca,
-        tipo_analisis,
-        departamentos,
-    ) = get_database(c_orden)
-    muestras_t = muestras[muestras["orden"] == c_orden]
 
     # Curve base:
     points = [[0, 0], [0, 2], [2, 3], [4, 0], [6, 3], [8, 2], [8, 0]]
@@ -194,11 +197,15 @@ def execute_orden(orden, etapas, edad, densidad, sombrio):
     password.send_keys("Multilab2001")
     login.click()
     time.sleep(1)
-    for c_lab in muestras_t.codigo:
+    for i, row in plantilla.iterrows():
+        etapa = etapa_[row["ETAPA"]]
+        edad = row["EDAD M"]
+        densidad_ = np.arange(2000, 22000, 200)
+        densidad = str(find_nearest(densidad_, row["DENSIDAD"]))
+        sombrio = row["SOMBRIO"]
 
         driver.get("https://www.cenicafe.org/es/index.php/servicios/siaskafe")
-
-        print(c_lab)
+        c_lab = muestras[muestras["codigo"] == int(row["No. Lab"])]["orden"].values[0]
         diccionario1, diccionario2, analisis = get_description(
             c_lab,
             muestras,
@@ -218,6 +225,7 @@ def execute_orden(orden, etapas, edad, densidad, sombrio):
         sica = driver.find_element(by=By.ID, value="codigofinca")
         nombrefinca = driver.find_element(by=By.ID, value="nombrefinca")
         referencialote = driver.find_element(by=By.ID, value="referencialote")
+        solicitante = driver.find_element(by=By.ID, value="solicitante")
         etapacultivo = Select(driver.find_element(by=By.ID, value="etapacultivo"))
         edadcultivo = Select(driver.find_element(by=By.ID, value="edadcultivo"))
         densidadsiembra = Select(driver.find_element(by=By.ID, value="densidadsiembra"))
@@ -241,10 +249,12 @@ def execute_orden(orden, etapas, edad, densidad, sombrio):
         borrar = driver.find_element(by=By.ID, value="reset")
         azufre = driver.find_element(by=By.ID, value="sulphur")
 
-        departamento.send_keys(diccionario1["Departamento:"])
-        municipio.send_keys(diccionario1["Municipio:"])
-        nombrefinca.send_keys(diccionario1["Finca:"])
+        departamento.send_keys(diccionario1["Departamento:"].encode("utf-8"))
+        municipio.send_keys(diccionario1["Municipio:"].encode("utf-8"))
+        nombrefinca.send_keys(diccionario1["Finca:"].encode("utf-8"))
         referencialote.send_keys(str(c_lab))
+        solicitante.clear()
+        solicitante.send_keys(diccionario1["Propietario:"].encode("utf-8"))
 
         if muestras_d["ph"].values[0] is not None:
             ph.send_keys(muestras_d["ph"].values[0].replace(",", "."))
@@ -271,9 +281,9 @@ def execute_orden(orden, etapas, edad, densidad, sombrio):
             sulphur.send_keys(muestras_d["s"].values[0].replace(",", "."))
 
         etapacultivo.select_by_value(etapa)
-        edadcultivo.select_by_value(edad)
-        densidadsiembra.select_by_value(densidad)
-        nivelsombrio.select_by_value(sombrio)
+        edadcultivo.select_by_value(str(edad))
+        densidadsiembra.select_by_value(str(densidad))
+        nivelsombrio.select_by_value(str(sombrio))
 
         driver.execute_script("window.scrollTo(0, window.scrollY + 200)")
         if muestras_d["s"].values[0] is not None:
@@ -320,8 +330,8 @@ def execute_orden(orden, etapas, edad, densidad, sombrio):
         enviar.click()
         window_before = driver.window_handles[0]
         print(len(driver.window_handles))
-        driver.switch_to.window(driver.window_handles[2])
-        driver.close()
+        # driver.switch_to.window(driver.window_handles[2])
+        # driver.close()
         driver.switch_to.window(driver.window_handles[1])
         driver.close()
         driver.switch_to.window(window_before)
