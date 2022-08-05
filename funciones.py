@@ -325,3 +325,5 @@ def execute_orden(orden, etapas, edad, densidad, sombrio):
         driver.switch_to.window(driver.window_handles[1])
         driver.close()
         driver.switch_to.window(window_before)
+    print("Proceso Finalizado")
+    driver.quit()

@@ -33,52 +33,53 @@ def PrintHeader():
     )
 
 
-PrintHeader()
+while True:
 
-questions = [
-    {
-        "type": "input",
-        "name": "orden",
-        "message": "Por favor ingrese el número de orden",
-        "validate": NumberValidator,
-    },
-    {
-        "type": "input",
-        "name": "edad",
-        "message": "Por favor la edad del cultivo",
-        "validate": EdadValidator,
-    },
-    {
-        "type": "list",
-        "message": "Seleccione la etapa del cultivo",
-        "name": "etapa",
-        "choices": [
-            Separator("=ETAPA="),
-            {"name": "Producción"},
-            {"name": "Crecimiento"},
-            {"name": "Zoca"},
-        ],
-    },
-    {
-        "type": "input",
-        "name": "densidad",
-        "message": "Por favor la densidad del cultivo",
-        "validate": DensidadValidator,
-    },
-    {
-        "type": "input",
-        "name": "sombrio",
-        "message": "Por favor ingrese el porcentaje de sombrío",
-        "validate": SombrioValidator,
-    },
-]
-answers = prompt(questions, style=ReturnStyle())
+    PrintHeader()
 
+    questions = [
+        {
+            "type": "input",
+            "name": "orden",
+            "message": "Por favor ingrese el número de orden",
+            "validate": NumberValidator,
+        },
+        {
+            "type": "input",
+            "name": "edad",
+            "message": "Por favor la edad del cultivo",
+            "validate": EdadValidator,
+        },
+        {
+            "type": "list",
+            "message": "Seleccione la etapa del cultivo",
+            "name": "etapa",
+            "choices": [
+                Separator("=ETAPA="),
+                {"name": "Producción"},
+                {"name": "Crecimiento"},
+                {"name": "Zoca"},
+            ],
+        },
+        {
+            "type": "input",
+            "name": "densidad",
+            "message": "Por favor la densidad del cultivo",
+            "validate": DensidadValidator,
+        },
+        {
+            "type": "input",
+            "name": "sombrio",
+            "message": "Por favor ingrese el porcentaje de sombrío",
+            "validate": SombrioValidator,
+        },
+    ]
+    answers = prompt(questions, style=ReturnStyle())
 
-execute_orden(
-    answers["orden"],
-    answers["etapa"],
-    answers["edad"],
-    answers["densidad"],
-    answers["sombrio"],
-)
+    execute_orden(
+        answers["orden"],
+        answers["etapa"],
+        answers["edad"],
+        answers["densidad"],
+        answers["sombrio"],
+    )
